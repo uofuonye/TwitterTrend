@@ -1,0 +1,32 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <f:section title="Build metrics HTTP POST to an URL">
+
+        <f:entry 
+            title="Username" 
+            field="username">
+
+            <f:textbox name="username" />
+        </f:entry>
+
+        <f:entry 
+            title="Password" 
+            field="password">
+
+            <f:password name="password" />
+        </f:entry>
+        
+         <f:entry 
+            title="ProxyPort" 
+            field="proxyPort">
+
+            <f:textbox name="proxyPort" />
+        </f:entry>
+        
+         <f:entry 
+            title="ProxyHost" 
+            field="proxyHost">
+
+            <f:textbox name="proxyHost" />
+        </f:entry>
+   </f:section>
+</j:jelly>
