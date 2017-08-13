@@ -1,9 +1,6 @@
 /*
- * login:	ofuon001, todtl003
+ * login:	ofuon001
  * date:	11/9/15
- * name:	Uche Ofuonye, Ryan Todtleben
- * id:	4883393, 4739977
- * 
  */
 
 #include <unistd.h>
